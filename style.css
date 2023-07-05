@@ -1,4 +1,55 @@
-body{
-    color:#0369B2;
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
 
+.cabecalho{
+    background-color: #FFF7E7;
+    color:#F58634;
+    justify-content: left;
+    padding: 30px 20px;    
+}
+
+.logo-cabecalho{
+    width: 15%;
+}
+
+.menu-cabecalho{
+    display: flex;
+    justify-content: right;
+}
+
+.item-menu-cabecalho{
+    display:inline-block;
+    margin: 0 16px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-fachada-loja{
+    width: 15%;
+    border: radius 50px;    
+}
+
+.home-conteudo{
+    background-image: linear-gradient(#FFF7E7,#FFFFFF);
+    color:#000000;
+    display: flex;
+    justify-content: center;
+    align-items:normal;
+    padding: 100px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-conteudo-home{
+    width: 60%;
+}
+
+.home-titulo{
+    padding: 24px 0;
+}
+
+.home-paragrafo{
+    padding-right: 50px;
 }
