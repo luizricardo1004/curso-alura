@@ -28,6 +28,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.item-menu-cabecalho:hover{
+    color: #fff;
+     background-color: green;
+}
+
 .img-fachada-loja{
     width: 15%;
     border: radius 50px;    
