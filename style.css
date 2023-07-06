@@ -34,8 +34,9 @@
 }
 
 .img-fachada-loja{
-    width: 15%;
-    border: radius 50px;    
+    width: 100%;
+    width: auto;
+    /*border: radius 50px;*/    
 }
 
 .img-box{
