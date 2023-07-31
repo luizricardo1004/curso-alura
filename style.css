@@ -85,24 +85,37 @@ body{
 .quem-somos-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-auto-rows: min-content;
 }
 
 .quem-somos-conteudo{
     text-align: center;
-    padding: 50px 0px;
-
 }
 
 .quem-somos-funcionarios{
     width: 100px;
+    padding: 0px 0px 15px 10px;
 }
 
 .quem-somos-div{
     text-align: center;
 }
 
+.quem-somos-paragrafo{
+    padding: 0px 0px 15px 10px;
+    text-align: center;
+}
+
 footer{
+    display:flex;
+    
+    justify-content: center; 
+    align-items: center;  
+
     background-color: #F58634;
     height: 120px;
+}
+
+.texto-rodape{
+    padding: 20px 0px;
+    color:#fff
 }
