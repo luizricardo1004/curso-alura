@@ -109,7 +109,7 @@ body{
 .quem-somos-todos{
     display: grid;
     justify-items: center;
-    grid-template-columns: 40% 7% 7% 6% 40%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .quem-somos-funcionarios{
